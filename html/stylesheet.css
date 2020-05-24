@@ -7,6 +7,7 @@ body {
     overflow: hidden;
     background-color: #333;
     position: fixed;
+    /* float: left; */
     top: 0;
     width: 100%;
   }
@@ -64,7 +65,9 @@ body {
   }
 
 
-
+.header {
+    margin-top: 50px;
+}
   /* wide screen header  */
   
   .vertical_header {
@@ -76,6 +79,7 @@ body {
     }
     .vertical_header{
         display: block
+        
     }
 }
 
