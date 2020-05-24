@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" type = "text/css" href="/css/stylesheet_1.css">
+  <!-- <link rel="stylesheet" type = "text/css" href="/css/stylesheet_1.css"> -->
+    <link rel="stylesheet" type = "text/css" href="/html/stylesheet.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Document</title>
 
 
@@ -20,12 +22,15 @@
 <!-- Navbar -->
 
 
-<div class="navbar">
+<div class="navbar" id="myTopnav">
   <a class="active" href="html_1.html">BR</a>
-  <div class="">
+ 
   <a href="html_4.html">blog &nbsp  &nbsp</a>
   <a href="html_3.html">projects</a>
   <a href="html_2.html">about</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"style="font-size:48px;color:red"></i>></i>
+  </a>
 </div>
   
 </div> 
@@ -70,6 +75,20 @@ Sound Design and Composition <br>
   contact me <br>
 
 </div>
+
+
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myNavbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
+  </script>
+
 
 </body>
 </html> 
