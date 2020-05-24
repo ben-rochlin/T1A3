@@ -121,7 +121,7 @@ body {
 .blog_entry_title{
     /* background: #ccc; */
   height: 50px;
-  
+  font-size: 17px;
   line-height: 50px;
   margin-top: 100px;
   font-size: 30px;
@@ -131,7 +131,8 @@ body {
   position: sticky;
   top: 122px;
   z-index: 2;
-  background-color: snow;
+  background-color: snow
+  ;
 }
 
 .blog_entry {
