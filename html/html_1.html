@@ -1,97 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- <link rel="stylesheet" type = "text/css" href="/css/stylesheet_1.css"> -->
-    <link rel="stylesheet" type = "text/css" href="/html/stylesheet.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
 
 
-  <!-- <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    </style> -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-<!-- Navbar -->
 
-
-<div class="navbar" id="myTopnav">
-  <a class="active" href="html_1.html">BR</a>
- 
-  <a href="html_4.html">blog &nbsp  &nbsp</a>
+  <!-- navbar -->
+<div class="topnav" id="myTopnav">
+  <a href="html_1.html" class="active">BR</a>
+  <a href="html_3.html">blog &nbsp </a>
   <a href="html_3.html">projects</a>
   <a href="html_2.html">about</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"style="font-size:48px;color:red"></i>></i>
+    <i class="fa fa-bars"></i>
   </a>
 </div>
-  
-</div> 
 
-
-
-<!-- header -->
-<!-- <img src="/images/mobile.png" alt="" width="100%">
-<img src="/images/main_background.png" alt="" width="100%">
-
-<picture>
-  <source srcset="https://placehold.it/1400x1400" media="(min-width: 1400px)"/>
-  <source srcset="https://placehold.it/1200x1200" media="(min-width: 1200px)"/>
-  <source srcset="https://placehold.it/800x800" media="(min-width: 800px)"/> -->
-  <picture>
-  <source srcset="/images/main_background.png" media="(min-width: 600px)"/>
-  
-  <img src="/images/mobile.png" alt="example" width="100%"/>
-</picture>
-
-
-<!-- Page content -->
-
-<div>
-  <div>
-IT Professional<br> <align-left> </align-left> </div>
-services include <br> 
-Web Dedesign <br>
-Web Development <br>
-Sound Design and Composition <br>
+<div style="padding-left:16px">
+  <h2>Responsive Topnav Example</h2>
+  <p>Resize the browser window to see how it works.</p>
 </div>
-
-<div>
-  skills <br>
-  ruby <br>
-  html <br>
-  git <br>
-  ruby on rails <br>
-</div>
-
-<div>
-  contact me <br>
-
-</div>
-
-
 
 <script>
-  function myFunction() {
-    var x = document.getElementById("myNavbar");
-    if (x.className === "navbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "navbar";
-    }
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
   }
-  </script>
-
+}
+</script>
 
 </body>
-</html> 
-
-
-
+</html>
