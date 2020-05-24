@@ -13,6 +13,7 @@ body {
     /* float: left; */
     top: 0;
     width: 100%;
+    z-index:4;
   }
   
   .topnav a {
@@ -90,13 +91,16 @@ body {
 
 .blog_title_mobile {
     position: fixed;
+    width: 100%;
     color: lightpink;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
+    background-image: url(/images/wall1.jpg);
+    z-index:3;
  
 }
 
 
-.blog_header {
+/* .blog_header {
     background-image: url(/images/wall1.jpg);
     background-size: 100%;
     padding-bottom: 100px;
@@ -108,8 +112,8 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 100px;
- 
-}
+  */
+/* } */
 
 .blog_entry_title{
     /* background: #ccc; */
