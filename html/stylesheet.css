@@ -9,7 +9,7 @@ body {
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    padding: ;
+    /* padding: ; */
     /* float: left; */
     top: 0;
     width: 100%;
@@ -54,6 +54,14 @@ body {
       display: block;
     }
   }
+
+  @media screen and (min-width: 600px) {
+    .topnav a.social { display: none;}
+    }
+  
+
+
+
   
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: fixed;}
@@ -68,6 +76,23 @@ body {
       text-align: left;
     }
   }
+
+
+  .topnav.vertical_header {
+    display: none;
+        }
+@media only screen and (max-width: 599px) {
+    .topnav.horizontal_header{
+        display: none;
+    }
+    .topnav.vertical_header{
+        display: block
+        
+    }
+}
+
+
+
 
 
 .mob_header {
