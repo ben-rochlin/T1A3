@@ -229,6 +229,12 @@
 }
 
 
+/* .back {
+  background-image: url(/images/main_background.png);
+  background-position: 100vh;
+  padding-bottom: 20%;
+} */
+
 /* PORTRAIT  */
 
 .img {
@@ -308,7 +314,8 @@
 .skills_title {
   font-size: 30px;
   color: rgb(56, 56, 56);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 
 }
 
