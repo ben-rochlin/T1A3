@@ -168,6 +168,9 @@
 
 .mob_header {
   margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  max-height: 700px;
 }
 /* wide screen header  */
 
