@@ -222,9 +222,9 @@
 
 @media only screen and (min-width: 1025px) {
   .text{
-    font-size: 240%;
+    font-size: 200%;
     padding-left: 1%;
-    padding-right: 10%;
+    padding-right: 0%;
   }
 }
 
@@ -285,9 +285,45 @@
   .text{
     font-size: 240%;
     padding-left: 8%;
-    padding-right: 10%;
+    padding-right: 0%;
   }
 } */ 
+
+
+
+/* SKILLLLLLS SECTION */
+/* SKILLLLLLS SECTION */
+/* SKILLLLLLS SECTION */
+
+
+
+.skills {
+  background-attachment: fixed;
+  background-color: #333;
+  height: 300px;
+  font-size: 35%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BLOG */
+/* BLOG */
+/* BLOG */
 
 
 
