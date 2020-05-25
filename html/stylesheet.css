@@ -167,7 +167,7 @@
 /* Header Image  */
 
 .mob_header {
-  margin-top: ;
+  margin-top: 50px;
 }
 /* wide screen header  */
 
@@ -185,46 +185,21 @@
 }
 
 
-/* Text */
 
-.text {
-  /* margin-left: 100px; */
-}
-
-@media only screen and (max-width: 599px) {
-
-  .text {
-    margin-left:px;
-  }
-}
 
 /* PORTRAIT  */
 
 .img {
-  
-  padding: 0px;
+  width: 100%; 
+   margin-left: 0px;
+  padding-right: 0px;
   max-width: 300px; 
- border-radius: 0.09em;
-  box-shadow: 1px 0.5px 3px 2px #72727265; 
+  padding:1px;
+  border:1px solid #dcdddd2c;
+  background-color:rgba(7, 5, 15, 0.363);
+ border-radius: 0em;
+  box-shadow: 1px 0px 5px 2px #727272e5; 
 } 
-
-@media only screen and (max-width: 599px) {
-  .img {
-  margin-left: 10%;
-  margin-right: 10%;
-    /* width: 100%;  */
-     /* margin-left: 0px;
-    padding-right: 0px; */
-    padding: 0px;
-    max-width: 300px; 
- 
-  
-  } 
-}
-
-small. {
-  align-self: center;
-}
 
 
 
