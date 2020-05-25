@@ -258,18 +258,17 @@ row. {}
   margin-left: 10%;
   }
 }
-
-/* @media only screen and (max-width: 769px) {
-  .text{
-    font-size: 140%;
-    padding-left: 5%;
+/* 
+@media only screen and (max-width: 769px) {
+  .img{
+    wid
   }
 }
 
 @media only screen and (min-width: 770px) {
   .text{
     font-size: 200%;
-    padding-left: 1%;
+    padding-left: %;
   }
 }
 
@@ -280,7 +279,7 @@ row. {}
     padding-left: 8%;
     padding-right: 10%;
   }
-} */
+} */ */
 
 
 
