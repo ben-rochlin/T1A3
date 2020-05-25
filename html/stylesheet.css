@@ -232,7 +232,7 @@
 /* PORTRAIT  */
 
 .img {
-  
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
   padding-right: 10%;
  
 
@@ -270,11 +270,10 @@
 }
 
 
-/*
+
 @media only screen and (min-width: 770px) {
   .img {
-    font-size: 200%;
-    padding-left: %;
+    max-width: 400px;
   }
 }
 
