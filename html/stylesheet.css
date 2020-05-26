@@ -24,6 +24,8 @@
 }
 
 
+
+
 @media screen and (max-width: 769px) {
   .none_mid {
     display: none
@@ -360,10 +362,10 @@
 
 .skillsection3 {
   background-attachment: fixed;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(189, 130, 130);
   height: 120px;
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky;
+  position: sticky; */
   top: 30px;
 
 }
@@ -413,6 +415,25 @@
 .fa-bars {
   color: #ddd;
 }
+
+.colourscroll2 {
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 240px;
+
+  top: 48px;
+                }
+
+
+@media only screen and (max-width: 600px) {                
+.colourscroll3 {
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 240px;
+
+  top: 48px;
+                }
+}                
 
 /* NOT MOBILE */
 @media only screen and (min-width: 600px) {
@@ -491,6 +512,17 @@
   text-align: left;
   padding-left: 5%;
 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.skills_title {
+  font-size: 25px;
+  color: rgb(56, 56, 56);
+  text-align: left;
+  padding-left: 2%;
+}
 }
 
 .image{
