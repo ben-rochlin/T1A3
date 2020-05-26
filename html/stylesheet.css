@@ -15,6 +15,8 @@
 
 /* Media Query Classes */
 
+
+/* none mobile  */
 @media screen and (max-width: 600px) {
   .none {
     display: none
@@ -65,32 +67,11 @@
     margin-left: 18%;
     margin-right: 18%;
 
-
- 
-
   }
-  .skillsection {
-    background-attachment: fixed;
-    background-color: rgb(219, 219, 219);
-    height: 240px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 48px;
-  
-  }
-
-
-  .colourscroll {
-    background-attachment: fixed;
-    background-color: rgb(219, 219, 219);
-    height: 240px;
-
-    top: 48px;
-  
-  }
-
 
 }
+
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -258,16 +239,40 @@
 }
 
 
-/* .back {
-  background-image: url(/images/main_background.png);
-  background-position: 100vh;
-  padding-bottom: 20%;
-} */
+.colourscrollintro {
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 240px;
+
+  top: 48px;
+                }
+
+.colourscrollintro {
+  background-attachment: fixed;
+  background-color: #f2f2f2;
+  height: 240px;
+                }
+
+
+
+
+
+
+/* INTRO TEXT  */
+.intro_font{
+  /* font-size: 4vh; */
+  text-align: justify;
+  text-justify: inter-word;
+  font-style: italic;
+  font-weight: 100;
+}
+
+
 
 /* PORTRAIT  */
 
 .img {
-  clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+  clip-path: polygon(3% 0, 100% 0%, 97% 100%, 0% 100%);
   padding-right: 10%;
  
 
@@ -292,7 +297,7 @@
 
 @media only screen and (max-width: 599px) {
   .img {
-      width: 80%;
+      width: 50%;
       margin-left: 10%;
       /* clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%); */
       
@@ -331,16 +336,154 @@
 /* SKILLLLLLS SECTION */
 
 
-
+/* MOBILE */
 .skillsection {
   background-attachment: fixed;
-  background-color: rgba(219, 219, 219,);
-  height: 150px;
+  background-color: rgb(255, 255, 255);
+  height: 120px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+
+}
+
+.skillsection2 {
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 120px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+
+}
+
+
+.skillsection3 {
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 120px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+
+}
+
+
+
+.socials {
+
+  
+  background-color: rgb(219, 219, 219);
+  font-size: 50px;
+  padding-right: 3%;
+  padding-left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+ 
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+  .socials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(219, 219, 219);
+    font-size: 200%;
+    align-items: center;
+    padding-bottom: 1vh;
+    height: 15vh;
+  }
+
+}
+
+
+.fa {
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.fa-bars {
+  color: #ddd;
+}
+
+/* NOT MOBILE */
+@media only screen and (min-width: 600px) {
+.skillsection {
+  background-attachment: fixed;
+  background-color: rgba(219, 219, 219, 0);
+  height: px;
   position: -webkit-sticky;
   position: sticky;
   top: 48px;
+             }
+
+.skillsection2 {
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px;
+            }             
+
+
+.skillsection3 {
+  background-attachment: fixed;
+  background-color: rgb(219, 219, 219);
+  height: 200px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+            }            
+
+
+  .colourscroll {
+  background-attachment: fixed;
+  background-color: rgb(219, 219, 219);
+  height: 240px;
+
+  top: 48px;
+                }
+
+.colourscroll2 {
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 240px;
+
+  top: 48px;
+                }
+
+
+.colourscroll_blank {
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  height: 240px;
+
+  top: 48px;
+                }
+
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(219, 219, 219);
+  font-size: 450%;
+  align-items: center;
+}
 
 }
+/* close  NOT mobile settings */
+
+
+
 
 .skills_title {
   font-size: 30px;
@@ -355,6 +498,16 @@
   /* align-self: center;  */
   width:80%;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .image{
+    margin-left: 9%;
+  }
+
+}
+
 
 /* .columns {
   display: flex;
