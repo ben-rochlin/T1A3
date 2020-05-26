@@ -91,7 +91,9 @@
 }
 
 
-
+.center{
+  text-justify: ;
+}
 
 
  /* Navbar */
@@ -189,6 +191,10 @@
 
 /* Header Image  */
 
+.grey {
+  filter: brightness()
+}
+
 .mob_header {
   margin-top: 50px;
   width: 100%;
@@ -263,9 +269,9 @@
 /* INTRO TEXT  */
 .intro_font{
   /* font-size: 4vh; */
-  text-align: justify;
+  /* text-align: justify;
   text-justify: inter-word;
-  font-style: italic;
+  font-style: italic; */
   font-weight: 100;
 }
 
@@ -525,6 +531,16 @@
 }
 
 
+.skills_title3 {
+  font-size: 30px;
+  color: rgb(56, 56, 56);
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 600px) {
 .skills_title {
@@ -713,18 +729,17 @@ background-color: rgb(255, 255, 255);
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 15px;
-    /* padding-bottom: 50px; */
-    /* padding-left: 10%;
-    padding-right: 10%; */
     font-size: 110%;
-    /* text-align: justify;
-    text-justify: inter-word;
-} */
+}
 }
 
 
 
 
+.wizard{
 
+  max-height: 300px;
+
+}
 
 
