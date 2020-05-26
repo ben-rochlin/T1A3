@@ -741,5 +741,9 @@ background-color: rgb(255, 255, 255);
   max-height: 300px;
 
 }
+.wizard2{
+  border-radius: 1.5em;
+  /* box-shadow: 0px 0px 1px 0px #727272e5; */
+}
 
 
